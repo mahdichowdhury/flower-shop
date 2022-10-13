@@ -1,0 +1,9 @@
+{
+  "name": "mahdi-flowerShop",
+  "alias": "mahdi-flowerShop.now.sh",
+  "version": 1,
+  "env": {
+    "MONGO_SRV": "mongodb+srv://YuvalKrin:Y1u2v3al@sheva-unr9s.mongodb.net/test?retryWrites=true&w=majority",
+    "CLOUDINARY_URL": "https://api.cloudinary.com/v1_1/dgmvbx86i/image/upload"
+  }
+}
