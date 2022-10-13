@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+
+:root {
+  --bodyBg: #23954e;
+  --menuBg: #f7b1b6;
+  --progressBar: #54d1db;
+  --aboutBg: #fff2f2;
+}
+
+body {
+  background: var(--bodyBg);
+  font: 14px/1.1em 'ABeeZee', sans-serif;
+}
+
+#about {
+  background: var(--aboutBg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  min-height: 400px;
+  padding: 1em 0em;
+}
+
+#menu {
+  background: url('https://res.cloudinary.com/dgmvbx86i/image/upload/v1591553304/high-angle-view-different-tropical-leaves-white-backdrop_23-2147837949_wsi7pu.jpg') no-repeat fixed;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  min-height: 500px;
+  text-align: center;
+  overflow: hidden;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+
+.nevbar{
+  max-width: 500px;
+  font: 14px/1.1em 'ABeeZee', sans-serif;
+}
+
+a.item{
+  font: 16px/1.1em 'ABeeZee', sans-serif;
+}
+
+a.item:active :focus{
+  border-bottom-color: black;
+}
+
+a.item:hover{
+  border-bottom-color: black;
+}
+
+.about-us{
+  padding-top: 80px;
+  margin-left: 250px;
+  font: bold 40px/1.1em 'ABeeZee', sans-serif;
+}
+.about-us1{
+  padding: 30px 0px;
+  font: 20px/1.1em 'ABeeZee', sans-serif;
+  text-align: center;
+}
+
+.banner-text {
+  padding-top: 200px;
+  font: bold 90px/1.1em 'ABeeZee', sans-serif;
+  color: #333e28;
+  letter-spacing: 1px;
+  margin: 60px auto 18px auto;
+}
+
+hr{
+  width: 60px;
+}
+
+.banner-text1{
+  padding-top: 10px;
+  font: 30px/0.8em 'ABeeZee',serif;
+  color: #333e28;
+  letter-spacing: 0px;
+  margin: 0 auto 18px auto;
+}
+/* Overrides default styled accordion styles (too much bottom padding) */
+.ui.styled.accordion .content {
+  /*margin: 0;*/
+  padding: 0.5em 1em 0.75em !important;
+}
